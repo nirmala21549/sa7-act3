@@ -1,0 +1,2263 @@
+﻿**********************
+Windows PowerShell transcript start
+Start time: 20240228131304
+Username: DESKTOP-QAG861V\Admin
+RunAs User: DESKTOP-QAG861V\Admin
+Configuration Name: 
+Machine: DESKTOP-QAG861V (Microsoft Windows NT 10.0.19045.0)
+Host Application: C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe -noexit -command try { . "c:\Users\Admin\AppData\Local\Programs\Microsoft VS Code\resources\app\out\vs\workbench\contrib\terminal\browser\media\shellIntegration.ps1" } catch {}
+Process ID: 18260
+PSVersion: 5.1.19041.4046
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.19041.4046
+BuildVersion: 10.0.19041.4046
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+Transcript started, output file is sa1-act3-log.txt
+PS C:\Users\Admin\workspace-3081> pwd
+
+Path
+----
+C:\Users\Admin\workspace-3081
+
+
+PS C:\Users\Admin\workspace-3081> mkdir study_group_repo
+
+
+    Directory: C:\Users\Admin\workspace-3081
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----        28-02-2024     13:19                study_group_repo
+
+
+PS C:\Users\Admin\workspace-3081> cd .\study_group_repo\
+PS C:\Users\Admin\workspace-3081\study_group_repo> mkdir courses meeting_minutes resources project_work archives
+>> TerminatingError(mkdir): "A positional parameter cannot be found that accepts argument 'meeting_minutes'."
+mkdir : A positional parameter cannot be found that accepts argument 'meeting_minutes'.
+At line:1 char:1
++ mkdir courses meeting_minutes resources project_work archives
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [mkdir], ParameterBindingException
+    + FullyQualifiedErrorId : PositionalParameterNotFound,mkdir
+mkdir : A positional parameter cannot be found that accepts argument 'meeting_minutes'.
+At line:1 char:1
++ mkdir courses meeting_minutes resources project_work archives
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [mkdir], ParameterBindingException
+    + FullyQualifiedErrorId : PositionalParameterNotFound,mkdir
+
+PS C:\Users\Admin\workspace-3081\study_group_repo> mkdir courses
+
+
+    Directory: C:\Users\Admin\workspace-3081\study_group_repo
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----        28-02-2024     13:21                courses
+
+
+PS C:\Users\Admin\workspace-3081\study_group_repo> mkdir meeting_minutes
+
+
+    Directory: C:\Users\Admin\workspace-3081\study_group_repo
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----        28-02-2024     13:21                meeting_minutes
+
+
+PS C:\Users\Admin\workspace-3081\study_group_repo> mkdir resources
+
+
+    Directory: C:\Users\Admin\workspace-3081\study_group_repo
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----        28-02-2024     13:22                resources
+
+
+PS C:\Users\Admin\workspace-3081\study_group_repo> mkdir project_work
+
+
+    Directory: C:\Users\Admin\workspace-3081\study_group_repo
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----        28-02-2024     13:22                project_work
+
+
+PS C:\Users\Admin\workspace-3081\study_group_repo> mkdir archives
+
+
+    Directory: C:\Users\Admin\workspace-3081\study_group_repo
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----        28-02-2024     13:22                archives
+
+
+PS C:\Users\Admin\workspace-3081\study_group_repo> ls
+
+
+    Directory: C:\Users\Admin\workspace-3081\study_group_repo
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----        28-02-2024     13:22                archives
+d-----        28-02-2024     13:21                courses
+d-----        28-02-2024     13:21                meeting_minutes
+d-----        28-02-2024     13:22                project_work
+d-----        28-02-2024     13:22                resources
+
+
+PS C:\Users\Admin\workspace-3081\study_group_repo> cd .\courses\
+PS C:\Users\Admin\workspace-3081\study_group_repo\courses> mkdir COMP101
+
+
+    Directory: C:\Users\Admin\workspace-3081\study_group_repo\courses
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----        28-02-2024     13:25                COMP101
+
+
+PS C:\Users\Admin\workspace-3081\study_group_repo\courses> mkdir HIST202
+
+
+    Directory: C:\Users\Admin\workspace-3081\study_group_repo\courses
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----        28-02-2024     13:25                HIST202
+
+
+PS C:\Users\Admin\workspace-3081\study_group_repo\courses> mkdir ECON303
+
+
+    Directory: C:\Users\Admin\workspace-3081\study_group_repo\courses
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----        28-02-2024     13:25                ECON303
+
+
+PS C:\Users\Admin\workspace-3081\study_group_repo\courses> ls
+
+
+    Directory: C:\Users\Admin\workspace-3081\study_group_repo\courses
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----        28-02-2024     13:25                COMP101
+d-----        28-02-2024     13:25                ECON303
+d-----        28-02-2024     13:25                HIST202
+
+
+PS C:\Users\Admin\workspace-3081\study_group_repo\courses> cd .\COMP101\
+PS C:\Users\Admin\workspace-3081\study_group_repo\courses\COMP101> mkdir assignments
+
+
+    Directory: C:\Users\Admin\workspace-3081\study_group_repo\courses\COMP101
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----        28-02-2024     13:26                assignments
+
+
+PS C:\Users\Admin\workspace-3081\study_group_repo\courses\COMP101> mkdir lectures
+
+
+    Directory: C:\Users\Admin\workspace-3081\study_group_repo\courses\COMP101
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----        28-02-2024     13:26                lectures
+
+
+PS C:\Users\Admin\workspace-3081\study_group_repo\courses\COMP101> ls
+
+
+    Directory: C:\Users\Admin\workspace-3081\study_group_repo\courses\COMP101
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----        28-02-2024     13:26                assignments
+d-----        28-02-2024     13:26                lectures
+
+
+PS C:\Users\Admin\workspace-3081\study_group_repo\courses\COMP101> cd..
+PS C:\Users\Admin\workspace-3081\study_group_repo\courses> cd .\HIST202\
+PS C:\Users\Admin\workspace-3081\study_group_repo\courses\HIST202> mkdir readings
+
+
+    Directory: C:\Users\Admin\workspace-3081\study_group_repo\courses\HIST202
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----        28-02-2024     13:27                readings
+
+
+PS C:\Users\Admin\workspace-3081\study_group_repo\courses\HIST202> mkdir essay_topics
+
+
+    Directory: C:\Users\Admin\workspace-3081\study_group_repo\courses\HIST202
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----        28-02-2024     13:27                essay_topics
+
+
+PS C:\Users\Admin\workspace-3081\study_group_repo\courses\HIST202> ls
+
+
+    Directory: C:\Users\Admin\workspace-3081\study_group_repo\courses\HIST202
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----        28-02-2024     13:27                essay_topics
+d-----        28-02-2024     13:27                readings
+
+
+PS C:\Users\Admin\workspace-3081\study_group_repo\courses\HIST202> cd..
+PS C:\Users\Admin\workspace-3081\study_group_repo\courses> cd .\ECON303\
+PS C:\Users\Admin\workspace-3081\study_group_repo\courses\ECON303> mkdir case_studies
+
+
+    Directory: C:\Users\Admin\workspace-3081\study_group_repo\courses\ECON303
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----        28-02-2024     13:28                case_studies
+
+
+PS C:\Users\Admin\workspace-3081\study_group_repo\courses\ECON303> mkdir data_analysis
+
+
+    Directory: C:\Users\Admin\workspace-3081\study_group_repo\courses\ECON303
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----        28-02-2024     13:28                data_analysis
+
+
+PS C:\Users\Admin\workspace-3081\study_group_repo\courses\ECON303> ls
+
+
+    Directory: C:\Users\Admin\workspace-3081\study_group_repo\courses\ECON303
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----        28-02-2024     13:28                case_studies
+d-----        28-02-2024     13:28                data_analysis
+
+
+PS C:\Users\Admin\workspace-3081\study_group_repo\courses\ECON303> cd..
+PS C:\Users\Admin\workspace-3081\study_group_repo\courses> TerminatingError(TabExpansion2): "Cannot bind argument to parameter 'inputScript' because it is an empty string."
+PS C:\Users\Admin\workspace-3081\study_group_repo\courses> cd..
+PS C:\Users\Admin\workspace-3081\study_group_repo> cd .\meeting_minutes\
+PS C:\Users\Admin\workspace-3081\study_group_repo\meeting_minutes> mkdir general
+
+
+    Directory: C:\Users\Admin\workspace-3081\study_group_repo\meeting_minutes
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----        28-02-2024     14:53                general
+
+
+PS C:\Users\Admin\workspace-3081\study_group_repo\meeting_minutes> mkdir committees
+
+
+    Directory: C:\Users\Admin\workspace-3081\study_group_repo\meeting_minutes
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----        28-02-2024     14:53                committees
+
+
+PS C:\Users\Admin\workspace-3081\study_group_repo\meeting_minutes> ls
+
+
+    Directory: C:\Users\Admin\workspace-3081\study_group_repo\meeting_minutes
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----        28-02-2024     14:53                committees
+d-----        28-02-2024     14:53                general
+
+
+PS C:\Users\Admin\workspace-3081\study_group_repo\meeting_minutes> cd..
+PS C:\Users\Admin\workspace-3081\study_group_repo> cd .\resources\
+PS C:\Users\Admin\workspace-3081\study_group_repo\resources> mkdir reference_materials
+
+
+    Directory: C:\Users\Admin\workspace-3081\study_group_repo\resources
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----        28-02-2024     14:55                reference_materials
+
+
+PS C:\Users\Admin\workspace-3081\study_group_repo\resources> mkdir research_papers
+
+
+    Directory: C:\Users\Admin\workspace-3081\study_group_repo\resources
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----        28-02-2024     14:55                research_papers
+
+
+PS C:\Users\Admin\workspace-3081\study_group_repo\resources> ls
+
+
+    Directory: C:\Users\Admin\workspace-3081\study_group_repo\resources
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----        28-02-2024     14:55                reference_materials
+d-----        28-02-2024     14:55                research_papers
+
+
+PS C:\Users\Admin\workspace-3081\study_group_repo\resources> cd..
+PS C:\Users\Admin\workspace-3081\study_group_repo> cd..
+PS C:\Users\Admin\workspace-3081> cd .\study_group_repo\
+PS C:\Users\Admin\workspace-3081\study_group_repo> ls
+
+
+    Directory: C:\Users\Admin\workspace-3081\study_group_repo
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----        28-02-2024     13:22                archives
+d-----        28-02-2024     13:25                courses
+d-----        28-02-2024     14:53                meeting_minutes
+d-----        28-02-2024     13:22                project_work
+d-----        28-02-2024     14:55                resources
+
+
+PS C:\Users\Admin\workspace-3081\study_group_repo> cd .\project_work\
+PS C:\Users\Admin\workspace-3081\study_group_repo\project_work> mkdir project1
+
+
+    Directory: C:\Users\Admin\workspace-3081\study_group_repo\project_work
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----        28-02-2024     14:56                project1
+
+
+PS C:\Users\Admin\workspace-3081\study_group_repo\project_work> mkdir project2
+
+
+    Directory: C:\Users\Admin\workspace-3081\study_group_repo\project_work
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----        28-02-2024     14:57                project2
+
+
+PS C:\Users\Admin\workspace-3081\study_group_repo\project_work> ls
+
+
+    Directory: C:\Users\Admin\workspace-3081\study_group_repo\project_work
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----        28-02-2024     14:56                project1
+d-----        28-02-2024     14:57                project2
+
+
+PS C:\Users\Admin\workspace-3081\study_group_repo\project_work> cd .\project1\
+PS C:\Users\Admin\workspace-3081\study_group_repo\project_work\project1> mkdir drafts
+
+
+    Directory: C:\Users\Admin\workspace-3081\study_group_repo\project_work\project1
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----        28-02-2024     14:57                drafts
+
+
+PS C:\Users\Admin\workspace-3081\study_group_repo\project_work\project1> mkdir final_version
+
+
+    Directory: C:\Users\Admin\workspace-3081\study_group_repo\project_work\project1
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----        28-02-2024     14:57                final_version
+
+
+PS C:\Users\Admin\workspace-3081\study_group_repo\project_work\project1> ls
+
+
+    Directory: C:\Users\Admin\workspace-3081\study_group_repo\project_work\project1
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----        28-02-2024     14:57                drafts
+d-----        28-02-2024     14:57                final_version
+
+
+PS C:\Users\Admin\workspace-3081\study_group_repo\project_work\project1> cd..
+PS C:\Users\Admin\workspace-3081\study_group_repo\project_work> cd .\project2\
+PS C:\Users\Admin\workspace-3081\study_group_repo\project_work\project2> mkdir past_papers
+
+
+    Directory: C:\Users\Admin\workspace-3081\study_group_repo\project_work\project2
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----        28-02-2024     14:58                past_papers
+
+
+PS C:\Users\Admin\workspace-3081\study_group_repo\project_work\project2> mkdir old_meeting_notes
+
+
+    Directory: C:\Users\Admin\workspace-3081\study_group_repo\project_work\project2
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----        28-02-2024     14:58                old_meeting_notes
+
+
+PS C:\Users\Admin\workspace-3081\study_group_repo\project_work\project2> ls
+
+
+    Directory: C:\Users\Admin\workspace-3081\study_group_repo\project_work\project2
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----        28-02-2024     14:58                old_meeting_notes
+d-----        28-02-2024     14:58                past_papers
+
+
+PS C:\Users\Admin\workspace-3081\study_group_repo\project_work\project2> rm .\old_meeting_notes\
+PS C:\Users\Admin\workspace-3081\study_group_repo\project_work\project2> rm .\past_papers\
+PS C:\Users\Admin\workspace-3081\study_group_repo\project_work\project2> mkdir ideas
+
+
+    Directory: C:\Users\Admin\workspace-3081\study_group_repo\project_work\project2
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----        28-02-2024     14:59                ideas
+
+
+PS C:\Users\Admin\workspace-3081\study_group_repo\project_work\project2> mkdir resources
+
+
+    Directory: C:\Users\Admin\workspace-3081\study_group_repo\project_work\project2
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----        28-02-2024     14:59                resources
+
+
+PS C:\Users\Admin\workspace-3081\study_group_repo\project_work\project2> ls
+
+
+    Directory: C:\Users\Admin\workspace-3081\study_group_repo\project_work\project2
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----        28-02-2024     14:59                ideas
+d-----        28-02-2024     14:59                resources
+
+
+PS C:\Users\Admin\workspace-3081\study_group_repo\project_work\project2> cd..
+PS C:\Users\Admin\workspace-3081\study_group_repo\project_work> cd..
+PS C:\Users\Admin\workspace-3081\study_group_repo> cd .\archives\
+PS C:\Users\Admin\workspace-3081\study_group_repo\archives> mkdir past_papers
+
+
+    Directory: C:\Users\Admin\workspace-3081\study_group_repo\archives
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----        28-02-2024     15:01                past_papers
+
+
+PS C:\Users\Admin\workspace-3081\study_group_repo\archives> mkdir old_meeting_notes
+
+
+    Directory: C:\Users\Admin\workspace-3081\study_group_repo\archives
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----        28-02-2024     15:01                old_meeting_notes
+
+
+PS C:\Users\Admin\workspace-3081\study_group_repo\archives> ls
+
+
+    Directory: C:\Users\Admin\workspace-3081\study_group_repo\archives
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----        28-02-2024     15:01                old_meeting_notes
+d-----        28-02-2024     15:01                past_papers
+
+
+PS C:\Users\Admin\workspace-3081\study_group_repo\archives> cd..
+PS C:\Users\Admin\workspace-3081\study_group_repo> cd..
+PS C:\Users\Admin\workspace-3081> tree -c .\study_group_repo\
+
+PS C:\Users\Admin\workspace-3081> clear
+PS C:\Users\Admin\workspace-3081> tree -c .\study_group_repo\
+Too many parameters - .\study_group_repo\
+PS C:\Users\Admin\workspace-3081> cd .\study_group_repo\
+PS C:\Users\Admin\workspace-3081\study_group_repo> cd .\meeting_minutes\
+PS C:\Users\Admin\workspace-3081\study_group_repo\meeting_minutes> ls
+
+
+    Directory: C:\Users\Admin\workspace-3081\study_group_repo\meeting_minutes
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----        28-02-2024     14:53                committees
+d-----        28-02-2024     15:04                general
+
+
+PS C:\Users\Admin\workspace-3081\study_group_repo\meeting_minutes> cd .\general\
+PS C:\Users\Admin\workspace-3081\study_group_repo\meeting_minutes\general> ls
+
+
+    Directory: C:\Users\Admin\workspace-3081\study_group_repo\meeting_minutes\general
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        28-02-2024     15:04             13 agenda.txt
+
+
+PS C:\Users\Admin\workspace-3081\study_group_repo\meeting_minutes\general> cat .\agenda.txt
+Sample agenda
+PS C:\Users\Admin\workspace-3081\study_group_repo\meeting_minutes\general> cp .\agenda.txt
+cp : Cannot overwrite the item C:\Users\Admin\workspace-3081\study_group_repo\meeting_minutes\general\agenda.txt with 
+itself.
+At line:1 char:1
++ cp .\agenda.txt
++ ~~~~~~~~~~~~~~~
+    + CategoryInfo          : WriteError: (C:\Users\Admin\...eral\agenda.txt:String) [Copy-Item], IOException
+    + FullyQualifiedErrorId : CopyError,Microsoft.PowerShell.Commands.CopyItemCommand
+cp : Cannot overwrite the item C:\Users\Admin\workspace-3081\study_group_repo\meeting_minutes\general\agenda.txt with itself.
+At line:1 char:1
++ cp .\agenda.txt
++ ~~~~~~~~~~~~~~~
+    + CategoryInfo          : WriteError: (C:\Users\Admin\...eral\agenda.txt:String) [Copy-Item], IOException
+    + FullyQualifiedErrorId : CopyError,Microsoft.PowerShell.Commands.CopyItemCommand
+
+PS C:\Users\Admin\workspace-3081\study_group_repo\meeting_minutes\general> cd..
+PS C:\Users\Admin\workspace-3081\study_group_repo\meeting_minutes> cd..
+PS C:\Users\Admin\workspace-3081\study_group_repo> cd .\meeting_minutes\
+PS C:\Users\Admin\workspace-3081\study_group_repo\meeting_minutes> cd .\general\
+PS C:\Users\Admin\workspace-3081\study_group_repo\meeting_minutes\general> cd..
+PS C:\Users\Admin\workspace-3081\study_group_repo\meeting_minutes> cp ../general/agenda.txt
+cp : Cannot find path 'C:\Users\Admin\workspace-3081\study_group_repo\general\agenda.txt' because it does not exist.
+At line:1 char:1
++ cp ../general/agenda.txt
++ ~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\Users\Admin\...eral\agenda.txt:String) [Copy-Item], 
+ItemNotFoundException
+    + FullyQualifiedErrorId : PathNotFound,Microsoft.PowerShell.Commands.CopyItemCommand
+cp : Cannot find path 'C:\Users\Admin\workspace-3081\study_group_repo\general\agenda.txt' because it does not exist.
+At line:1 char:1
++ cp ../general/agenda.txt
++ ~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\Users\Admin\...eral\agenda.txt:String) [Copy-Item], ItemNotFoundException
+    + FullyQualifiedErrorId : PathNotFound,Microsoft.PowerShell.Commands.CopyItemCommand
+
+PS C:\Users\Admin\workspace-3081\study_group_repo\meeting_minutes> la
+la : The term 'la' is not recognized as the name of a cmdlet, function, script file, or operable program. Check the 
+spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:1
++ la
++ ~~
+    + CategoryInfo          : ObjectNotFound: (la:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+la : The term 'la' is not recognized as the name of a cmdlet, function, script file, or operable program. Check the spelling of the name, or if a path
+was included, verify that the path is correct and try again.
+At line:1 char:1
++ la
++ ~~
+    + CategoryInfo          : ObjectNotFound: (la:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+
+PS C:\Users\Admin\workspace-3081\study_group_repo\meeting_minutes> ls
+
+
+    Directory: C:\Users\Admin\workspace-3081\study_group_repo\meeting_minutes
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----        28-02-2024     14:53                committees
+d-----        28-02-2024     15:04                general
+
+
+PS C:\Users\Admin\workspace-3081\study_group_repo\meeting_minutes> cd .\general\
+PS C:\Users\Admin\workspace-3081\study_group_repo\meeting_minutes\general> ls
+
+
+    Directory: C:\Users\Admin\workspace-3081\study_group_repo\meeting_minutes\general
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        28-02-2024     15:04             13 agenda.txt
+
+
+PS C:\Users\Admin\workspace-3081\study_group_repo\meeting_minutes\general> cp ../agenda.txt
+cp : Cannot find path 'C:\Users\Admin\workspace-3081\study_group_repo\meeting_minutes\agenda.txt' because it does not 
+exist.
+At line:1 char:1
++ cp ../agenda.txt
++ ~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\Users\Admin\...utes\agenda.txt:String) [Copy-Item], 
+ItemNotFoundException
+    + FullyQualifiedErrorId : PathNotFound,Microsoft.PowerShell.Commands.CopyItemCommand
+cp : Cannot find path 'C:\Users\Admin\workspace-3081\study_group_repo\meeting_minutes\agenda.txt' because it does not exist.
+At line:1 char:1
++ cp ../agenda.txt
++ ~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\Users\Admin\...utes\agenda.txt:String) [Copy-Item], ItemNotFoundException
+    + FullyQualifiedErrorId : PathNotFound,Microsoft.PowerShell.Commands.CopyItemCommand
+
+PS C:\Users\Admin\workspace-3081\study_group_repo\meeting_minutes\general> cp ..\agenda.txt
+cp : Cannot find path 'C:\Users\Admin\workspace-3081\study_group_repo\meeting_minutes\agenda.txt' because it does not 
+exist.
+At line:1 char:1
++ cp ..\agenda.txt
++ ~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\Users\Admin\...utes\agenda.txt:String) [Copy-Item], 
+ItemNotFoundException
+    + FullyQualifiedErrorId : PathNotFound,Microsoft.PowerShell.Commands.CopyItemCommand
+cp : Cannot find path 'C:\Users\Admin\workspace-3081\study_group_repo\meeting_minutes\agenda.txt' because it does not exist.
+At line:1 char:1
++ cp ..\agenda.txt
++ ~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\Users\Admin\...utes\agenda.txt:String) [Copy-Item], ItemNotFoundException
+    + FullyQualifiedErrorId : PathNotFound,Microsoft.PowerShell.Commands.CopyItemCommand
+
+PS C:\Users\Admin\workspace-3081\study_group_repo\meeting_minutes\general> cd..
+PS C:\Users\Admin\workspace-3081\study_group_repo\meeting_minutes> cp .\general\agenda.txt
+PS C:\Users\Admin\workspace-3081\study_group_repo\meeting_minutes> mv agenda.txt committee_agenda.txt
+PS C:\Users\Admin\workspace-3081\study_group_repo\meeting_minutes> ls
+
+
+    Directory: C:\Users\Admin\workspace-3081\study_group_repo\meeting_minutes
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----        28-02-2024     14:53                committees
+d-----        28-02-2024     15:04                general
+-a----        28-02-2024     15:04             13 committee_agenda.txt
+
+
+PS C:\Users\Admin\workspace-3081\study_group_repo\meeting_minutes> mv .\committee_agenda.txt \comittees
+PS C:\Users\Admin\workspace-3081\study_group_repo\meeting_minutes> ls
+
+
+    Directory: C:\Users\Admin\workspace-3081\study_group_repo\meeting_minutes
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----        28-02-2024     14:53                committees
+d-----        28-02-2024     15:04                general
+
+
+PS C:\Users\Admin\workspace-3081\study_group_repo\meeting_minutes> tree -c
+
+PS C:\Users\Admin\workspace-3081\study_group_repo\meeting_minutes> cd..
+PS C:\Users\Admin\workspace-3081\study_group_repo> ls -l .\meeting_minutes\
+
+
+    Directory: C:\Users\Admin\workspace-3081\study_group_repo\meeting_minutes
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----        28-02-2024     14:53                committees
+d-----        28-02-2024     15:04                general
+
+
+PS C:\Users\Admin\workspace-3081\study_group_repo> cd .\meeting_minutes\
+PS C:\Users\Admin\workspace-3081\study_group_repo\meeting_minutes> ls
+
+
+    Directory: C:\Users\Admin\workspace-3081\study_group_repo\meeting_minutes
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----        28-02-2024     14:53                committees
+d-----        28-02-2024     15:04                general
+
+
+PS C:\Users\Admin\workspace-3081\study_group_repo\meeting_minutes> cd .\committees\
+PS C:\Users\Admin\workspace-3081\study_group_repo\meeting_minutes\committees> ls
+PS C:\Users\Admin\workspace-3081\study_group_repo\meeting_minutes\committees> cd..
+PS C:\Users\Admin\workspace-3081\study_group_repo\meeting_minutes> cd .\general\
+PS C:\Users\Admin\workspace-3081\study_group_repo\meeting_minutes\general> ls
+
+
+    Directory: C:\Users\Admin\workspace-3081\study_group_repo\meeting_minutes\general
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        28-02-2024     15:04             13 agenda.txt
+
+
+PS C:\Users\Admin\workspace-3081\study_group_repo\meeting_minutes\general> mv agenda.txt committee_agenda.txt
+PS C:\Users\Admin\workspace-3081\study_group_repo\meeting_minutes\general> ls
+
+
+    Directory: C:\Users\Admin\workspace-3081\study_group_repo\meeting_minutes\general
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        28-02-2024     15:04             13 committee_agenda.txt
+
+
+PS C:\Users\Admin\workspace-3081\study_group_repo\meeting_minutes\general> cd..
+PS C:\Users\Admin\workspace-3081\study_group_repo\meeting_minutes> cd..
+PS C:\Users\Admin\workspace-3081\study_group_repo> cd .\courses\
+PS C:\Users\Admin\workspace-3081\study_group_repo\courses> cd .\COMP101\
+PS C:\Users\Admin\workspace-3081\study_group_repo\courses\COMP101> cd .\assignments\
+PS C:\Users\Admin\workspace-3081\study_group_repo\courses\COMP101\assignments> ls
+PS C:\Users\Admin\workspace-3081\study_group_repo\courses\COMP101\assignments> cd..
+PS C:\Users\Admin\workspace-3081\study_group_repo\courses\COMP101> ls
+
+
+    Directory: C:\Users\Admin\workspace-3081\study_group_repo\courses\COMP101
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----        28-02-2024     13:26                assignments
+d-----        28-02-2024     13:26                lectures
+
+
+PS C:\Users\Admin\workspace-3081\study_group_repo\courses\COMP101> cd .\assignments\
+PS C:\Users\Admin\workspace-3081\study_group_repo\courses\COMP101\assignments> ls
+
+
+    Directory: C:\Users\Admin\workspace-3081\study_group_repo\courses\COMP101\assignments
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        28-02-2024     15:54              0 upcoming_assignment.txt.txt
+
+
+PS C:\Users\Admin\workspace-3081\study_group_repo\courses\COMP101\assignments> cd..
+PS C:\Users\Admin\workspace-3081\study_group_repo\courses\COMP101> cd..
+PS C:\Users\Admin\workspace-3081\study_group_repo\courses> cd .\HIST202\
+PS C:\Users\Admin\workspace-3081\study_group_repo\courses\HIST202> cd .\readings\
+PS C:\Users\Admin\workspace-3081\study_group_repo\courses\HIST202\readings> for i in {1..5}; do
+touch reading_materials_$i.txt
+At line:1 char:4
++ for i in {1..5}; do
++    ~
+Missing opening '(' after keyword 'for'.
+
+At line:1 char:20
++ for i in {1..5}; do
++                    ~
+Missing statement body in do loop.
+At line:1 char:4
++ for i in {1..5}; do
++    ~
+Missing opening '(' after keyword 'for'.
+
+At line:1 char:20
++ for i in {1..5}; do
++                    ~
+Missing statement body in do loop.
+    + CategoryInfo          : ParserError: (:) [], ParentContainsErrorRecordException
+    + FullyQualifiedErrorId : MissingOpenParenthesisAfterKeyword
+
+PS C:\Users\Admin\workspace-3081\study_group_repo\courses\HIST202\readings> touch reading_material_1.txt reading_material_2.txt reading_material_3.txt
+touch : The term 'touch' is not recognized as the name of a cmdlet, function, script file, or operable program. Check 
+the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:1
++ touch reading_material_1.txt reading_material_2.txt reading_material_ ...
++ ~~~~~
+    + CategoryInfo          : ObjectNotFound: (touch:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+touch : The term 'touch' is not recognized as the name of a cmdlet, function, script file, or operable program. Check the spelling of the name, or if a
+path was included, verify that the path is correct and try again.
+At line:1 char:1
++ touch reading_material_1.txt reading_material_2.txt reading_material_ ...
++ ~~~~~
+    + CategoryInfo          : ObjectNotFound: (touch:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+
+PS C:\Users\Admin\workspace-3081\study_group_repo\courses\HIST202\readings> new-item reading_material_1.txt reading_material_2.txt reading_material_3.txt
+>> TerminatingError(New-Item): "A positional parameter cannot be found that accepts argument 'reading_material_2.txt'."
+New-Item : A positional parameter cannot be found that accepts argument 'reading_material_2.txt'.
+At line:1 char:1
++ new-item reading_material_1.txt reading_material_2.txt reading_materi ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [New-Item], ParameterBindingException
+    + FullyQualifiedErrorId : PositionalParameterNotFound,Microsoft.PowerShell.Commands.NewItemCommand
+New-Item : A positional parameter cannot be found that accepts argument 'reading_material_2.txt'.
+At line:1 char:1
++ new-item reading_material_1.txt reading_material_2.txt reading_materi ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [New-Item], ParameterBindingException
+    + FullyQualifiedErrorId : PositionalParameterNotFound,Microsoft.PowerShell.Commands.NewItemCommand
+
+PS C:\Users\Admin\workspace-3081\study_group_repo\courses\HIST202\readings> new-item reading_material_1.txt
+
+
+    Directory: C:\Users\Admin\workspace-3081\study_group_repo\courses\HIST202\readings
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        28-02-2024     16:08              0 reading_material_1.txt
+
+
+PS C:\Users\Admin\workspace-3081\study_group_repo\courses\HIST202\readings> new-item reading_material_2.txt
+
+
+    Directory: C:\Users\Admin\workspace-3081\study_group_repo\courses\HIST202\readings
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        28-02-2024     16:09              0 reading_material_2.txt
+
+
+PS C:\Users\Admin\workspace-3081\study_group_repo\courses\HIST202\readings> new-item reading_material_3.txt
+
+
+    Directory: C:\Users\Admin\workspace-3081\study_group_repo\courses\HIST202\readings
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        28-02-2024     16:09              0 reading_material_3.txt
+
+
+PS C:\Users\Admin\workspace-3081\study_group_repo\courses\HIST202\readings> new-item reading_material_4.txt
+
+
+    Directory: C:\Users\Admin\workspace-3081\study_group_repo\courses\HIST202\readings
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        28-02-2024     16:09              0 reading_material_4.txt
+
+
+PS C:\Users\Admin\workspace-3081\study_group_repo\courses\HIST202\readings> ls -lt
+>> TerminatingError(Get-ChildItem): "A parameter cannot be found that matches parameter name 'lt'."
+Get-ChildItem : A parameter cannot be found that matches parameter name 'lt'.
+At line:1 char:4
++ ls -lt
++    ~~~
+    + CategoryInfo          : InvalidArgument: (:) [Get-ChildItem], ParameterBindingException
+    + FullyQualifiedErrorId : NamedParameterNotFound,Microsoft.PowerShell.Commands.GetChildItemCommand
+Get-ChildItem : A parameter cannot be found that matches parameter name 'lt'.
+At line:1 char:4
++ ls -lt
++    ~~~
+    + CategoryInfo          : InvalidArgument: (:) [Get-ChildItem], ParameterBindingException
+    + FullyQualifiedErrorId : NamedParameterNotFound,Microsoft.PowerShell.Commands.GetChildItemCommand
+
+PS C:\Users\Admin\workspace-3081\study_group_repo\courses\HIST202\readings> ls -l
+>> TerminatingError(Get-ChildItem): "Missing an argument for parameter 'LiteralPath'. Specify a parameter of type 'System.String[]' and try again."
+Get-ChildItem : Missing an argument for parameter 'LiteralPath'. Specify a parameter of type 'System.String[]' and try 
+again.
+At line:1 char:4
++ ls -l
++    ~~
+    + CategoryInfo          : InvalidArgument: (:) [Get-ChildItem], ParameterBindingException
+    + FullyQualifiedErrorId : MissingArgument,Microsoft.PowerShell.Commands.GetChildItemCommand
+Get-ChildItem : Missing an argument for parameter 'LiteralPath'. Specify a parameter of type 'System.String[]' and try again.
+At line:1 char:4
++ ls -l
++    ~~
+    + CategoryInfo          : InvalidArgument: (:) [Get-ChildItem], ParameterBindingException
+    + FullyQualifiedErrorId : MissingArgument,Microsoft.PowerShell.Commands.GetChildItemCommand
+
+PS C:\Users\Admin\workspace-3081\study_group_repo\courses\HIST202\readings> ls
+
+
+    Directory: C:\Users\Admin\workspace-3081\study_group_repo\courses\HIST202\readings
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        28-02-2024     16:08              0 reading_material_1.txt
+-a----        28-02-2024     16:09              0 reading_material_2.txt
+-a----        28-02-2024     16:09              0 reading_material_3.txt
+-a----        28-02-2024     16:09              0 reading_material_4.txt
+
+
+PS C:\Users\Admin\workspace-3081\study_group_repo\courses\HIST202\readings> cd..
+PS C:\Users\Admin\workspace-3081\study_group_repo\courses\HIST202> cd..
+PS C:\Users\Admin\workspace-3081\study_group_repo\courses> cd.
+cd. : The term 'cd.' is not recognized as the name of a cmdlet, function, script file, or operable program. Check the 
+spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:1
++ cd.
++ ~~~
+    + CategoryInfo          : ObjectNotFound: (cd.:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+cd. : The term 'cd.' is not recognized as the name of a cmdlet, function, script file, or operable program. Check the spelling of the name, or if a path
+was included, verify that the path is correct and try again.
+At line:1 char:1
++ cd.
++ ~~~
+    + CategoryInfo          : ObjectNotFound: (cd.:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+
+PS C:\Users\Admin\workspace-3081\study_group_repo\courses> cd..
+PS C:\Users\Admin\workspace-3081\study_group_repo> tree -C
+
+PS C:\Users\Admin\workspace-3081\study_group_repo> ls
+
+
+    Directory: C:\Users\Admin\workspace-3081\study_group_repo
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----        28-02-2024     15:01                archives
+d-----        28-02-2024     13:25                courses
+d-----        28-02-2024     15:15                meeting_minutes
+d-----        28-02-2024     14:57                project_work
+d-----        28-02-2024     14:55                resources
+
+
+PS C:\Users\Admin\workspace-3081\study_group_repo> install tree
+install : The term 'install' is not recognized as the name of a cmdlet, function, script file, or operable program. 
+Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:1
++ install tree
++ ~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (install:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+install : The term 'install' is not recognized as the name of a cmdlet, function, script file, or operable program. Check the spelling of the name, or if
+a path was included, verify that the path is correct and try again.
+At line:1 char:1
++ install tree
++ ~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (install:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+
+PS C:\Users\Admin\workspace-3081\study_group_repo> cd .\courses\
+PS C:\Users\Admin\workspace-3081\study_group_repo\courses> ls
+
+
+    Directory: C:\Users\Admin\workspace-3081\study_group_repo\courses
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----        28-02-2024     13:26                COMP101
+d-----        28-02-2024     13:28                ECON303
+d-----        28-02-2024     13:27                HIST202
+
+
+PS C:\Users\Admin\workspace-3081\study_group_repo\courses> cd .\ECON303\
+PS C:\Users\Admin\workspace-3081\study_group_repo\courses\ECON303> cd .\data_analysis\
+PS C:\Users\Admin\workspace-3081\study_group_repo\courses\ECON303\data_analysis> new-item data.csv
+
+
+    Directory: C:\Users\Admin\workspace-3081\study_group_repo\courses\ECON303\data_analysis
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        28-02-2024     16:15              0 data.csv
+
+
+PS C:\Users\Admin\workspace-3081\study_group_repo\courses\ECON303\data_analysis> vi .\data.csv
+vi : The term 'vi' is not recognized as the name of a cmdlet, function, script file, or operable program. Check the 
+spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:1
++ vi .\data.csv
++ ~~
+    + CategoryInfo          : ObjectNotFound: (vi:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+vi : The term 'vi' is not recognized as the name of a cmdlet, function, script file, or operable program. Check the spelling of the name, or if a path
+was included, verify that the path is correct and try again.
+At line:1 char:1
++ vi .\data.csv
++ ~~
+    + CategoryInfo          : ObjectNotFound: (vi:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+
+PS C:\Users\Admin\workspace-3081\study_group_repo\courses\ECON303\data_analysis> nano .\data.csv
+nano : The term 'nano' is not recognized as the name of a cmdlet, function, script file, or operable program. Check the 
+spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:1
++ nano .\data.csv
++ ~~~~
+    + CategoryInfo          : ObjectNotFound: (nano:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+nano : The term 'nano' is not recognized as the name of a cmdlet, function, script file, or operable program. Check the spelling of the name, or if a
+path was included, verify that the path is correct and try again.
+At line:1 char:1
++ nano .\data.csv
++ ~~~~
+    + CategoryInfo          : ObjectNotFound: (nano:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+
+PS C:\Users\Admin\workspace-3081\study_group_repo\courses\ECON303\data_analysis> code .\data.csv
+
+PS C:\Users\Admin\workspace-3081\study_group_repo\courses\ECON303\data_analysis> cd..
+PS C:\Users\Admin\workspace-3081\study_group_repo\courses\ECON303> cd..
+PS C:\Users\Admin\workspace-3081\study_group_repo\courses> cp .\ECON303\data_analysis\data.csv .\ECON303\case_studies\data.csv
+PS C:\Users\Admin\workspace-3081\study_group_repo\courses> cd .\ECON303\
+PS C:\Users\Admin\workspace-3081\study_group_repo\courses\ECON303> cd .\data_analysis\
+PS C:\Users\Admin\workspace-3081\study_group_repo\courses\ECON303\data_analysis> ls
+
+
+    Directory: C:\Users\Admin\workspace-3081\study_group_repo\courses\ECON303\data_analysis
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        28-02-2024     16:53              9 data.csv
+
+
+PS C:\Users\Admin\workspace-3081\study_group_repo\courses\ECON303\data_analysis> cd..
+PS C:\Users\Admin\workspace-3081\study_group_repo\courses\ECON303> cd .\case_studies\
+PS C:\Users\Admin\workspace-3081\study_group_repo\courses\ECON303\case_studies> ls
+
+
+    Directory: C:\Users\Admin\workspace-3081\study_group_repo\courses\ECON303\case_studies
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        28-02-2024     16:53              9 data.csv
+
+
+PS C:\Users\Admin\workspace-3081\study_group_repo\courses\ECON303\case_studies> mv .\data.csv case_study_data.csv
+PS C:\Users\Admin\workspace-3081\study_group_repo\courses\ECON303\case_studies> ls
+
+
+    Directory: C:\Users\Admin\workspace-3081\study_group_repo\courses\ECON303\case_studies
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        28-02-2024     16:53              9 case_study_data.csv
+
+
+PS C:\Users\Admin\workspace-3081\study_group_repo\courses\ECON303\case_studies> ls
+
+
+    Directory: C:\Users\Admin\workspace-3081\study_group_repo\courses\ECON303\case_studies
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        28-02-2024     16:53              9 case_study_data.csv
+
+
+PS C:\Users\Admin\workspace-3081\study_group_repo\courses\ECON303\case_studies> new-item case_study_data_1.csv
+
+
+    Directory: C:\Users\Admin\workspace-3081\study_group_repo\courses\ECON303\case_studies
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        28-02-2024     17:05              0 case_study_data_1.csv
+
+
+PS C:\Users\Admin\workspace-3081\study_group_repo\courses\ECON303\case_studies> new-item case_study_data_2.csv
+
+
+    Directory: C:\Users\Admin\workspace-3081\study_group_repo\courses\ECON303\case_studies
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        28-02-2024     17:05              0 case_study_data_2.csv
+
+
+PS C:\Users\Admin\workspace-3081\study_group_repo\courses\ECON303\case_studies> new-item case_study_data_3.csv
+
+
+    Directory: C:\Users\Admin\workspace-3081\study_group_repo\courses\ECON303\case_studies
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        28-02-2024     17:05              0 case_study_data_3.csv
+
+
+PS C:\Users\Admin\workspace-3081\study_group_repo\courses\ECON303\case_studies> ls
+
+
+    Directory: C:\Users\Admin\workspace-3081\study_group_repo\courses\ECON303\case_studies
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        28-02-2024     16:53              9 case_study_data.csv
+-a----        28-02-2024     17:05              0 case_study_data_1.csv
+-a----        28-02-2024     17:05              0 case_study_data_2.csv
+-a----        28-02-2024     17:05              0 case_study_data_3.csv
+
+
+PS C:\Users\Admin\workspace-3081\study_group_repo\courses\ECON303\case_studies> cd..
+PS C:\Users\Admin\workspace-3081\study_group_repo\courses\ECON303> cd..
+PS C:\Users\Admin\workspace-3081\study_group_repo\courses> cd..
+PS C:\Users\Admin\workspace-3081\study_group_repo> cd .\resources\
+PS C:\Users\Admin\workspace-3081\study_group_repo\resources> cd .\reference_materials\
+PS C:\Users\Admin\workspace-3081\study_group_repo\resources\reference_materials> ls
+PS C:\Users\Admin\workspace-3081\study_group_repo\resources\reference_materials> cd ..\research_papers\
+PS C:\Users\Admin\workspace-3081\study_group_repo\resources\research_papers> new-item research_papers_1.txt
+
+
+    Directory: C:\Users\Admin\workspace-3081\study_group_repo\resources\research_papers
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        28-02-2024     17:08              0 research_papers_1.txt
+
+
+PS C:\Users\Admin\workspace-3081\study_group_repo\resources\research_papers> new-item research_papers_2.csv
+
+
+    Directory: C:\Users\Admin\workspace-3081\study_group_repo\resources\research_papers
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        28-02-2024     17:08              0 research_papers_2.csv
+
+
+PS C:\Users\Admin\workspace-3081\study_group_repo\resources\research_papers> ls
+
+
+    Directory: C:\Users\Admin\workspace-3081\study_group_repo\resources\research_papers
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        28-02-2024     17:08              0 research_papers_1.txt
+-a----        28-02-2024     17:08              0 research_papers_2.csv
+
+
+PS C:\Users\Admin\workspace-3081\study_group_repo\resources\research_papers> cd..
+PS C:\Users\Admin\workspace-3081\study_group_repo\resources> cd..
+PS C:\Users\Admin\workspace-3081\study_group_repo> cd .\project_work\
+PS C:\Users\Admin\workspace-3081\study_group_repo\project_work> cd .\project1\
+PS C:\Users\Admin\workspace-3081\study_group_repo\project_work\project1> cd .\drafts\
+PS C:\Users\Admin\workspace-3081\study_group_repo\project_work\project1\drafts> new-item draft_document.txt
+
+
+    Directory: C:\Users\Admin\workspace-3081\study_group_repo\project_work\project1\drafts
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        28-02-2024     17:23              0 draft_document.txt
+
+
+PS C:\Users\Admin\workspace-3081\study_group_repo\project_work\project1\drafts> code .\draft_document.txt
+
+PS C:\Users\Admin\workspace-3081\study_group_repo\project_work\project1\drafts> cp .\draft_document.txt final_version.txt
+PS C:\Users\Admin\workspace-3081\study_group_repo\project_work\project1\drafts> ls
+
+
+    Directory: C:\Users\Admin\workspace-3081\study_group_repo\project_work\project1\drafts
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        28-02-2024     17:27             32 draft_document.txt
+-a----        28-02-2024     17:27             32 final_version.txt
+
+
+PS C:\Users\Admin\workspace-3081\study_group_repo\project_work\project1\drafts> cd..
+PS C:\Users\Admin\workspace-3081\study_group_repo\project_work\project1> cd..
+PS C:\Users\Admin\workspace-3081\study_group_repo\project_work> cd .\project2\
+PS C:\Users\Admin\workspace-3081\study_group_repo\project_work\project2> cd .\ideas\
+PS C:\Users\Admin\workspace-3081\study_group_repo\project_work\project2\ideas> new-idea ideas_1.txt
+new-idea : The term 'new-idea' is not recognized as the name of a cmdlet, function, script file, or operable program. 
+Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:1
++ new-idea ideas_1.txt
++ ~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (new-idea:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+new-idea : The term 'new-idea' is not recognized as the name of a cmdlet, function, script file, or operable program. Check the spelling of the name, or
+if a path was included, verify that the path is correct and try again.
+At line:1 char:1
++ new-idea ideas_1.txt
++ ~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (new-idea:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+
+PS C:\Users\Admin\workspace-3081\study_group_repo\project_work\project2\ideas> new-item ideas_1.txt
+
+
+    Directory: C:\Users\Admin\workspace-3081\study_group_repo\project_work\project2\ideas
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        28-02-2024     17:33              0 ideas_1.txt
+
+
+PS C:\Users\Admin\workspace-3081\study_group_repo\project_work\project2\ideas> new-item ideas_2.txt
+
+
+    Directory: C:\Users\Admin\workspace-3081\study_group_repo\project_work\project2\ideas
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        28-02-2024     17:33              0 ideas_2.txt
+
+
+PS C:\Users\Admin\workspace-3081\study_group_repo\project_work\project2\ideas> la
+la : The term 'la' is not recognized as the name of a cmdlet, function, script file, or operable program. Check the 
+spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:1
++ la
++ ~~
+    + CategoryInfo          : ObjectNotFound: (la:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+la : The term 'la' is not recognized as the name of a cmdlet, function, script file, or operable program. Check the spelling of the name, or if a path
+was included, verify that the path is correct and try again.
+At line:1 char:1
++ la
++ ~~
+    + CategoryInfo          : ObjectNotFound: (la:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+
+PS C:\Users\Admin\workspace-3081\study_group_repo\project_work\project2\ideas> ls
+
+
+    Directory: C:\Users\Admin\workspace-3081\study_group_repo\project_work\project2\ideas
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        28-02-2024     17:33              0 ideas_1.txt
+-a----        28-02-2024     17:33              0 ideas_2.txt
+
+
+PS C:\Users\Admin\workspace-3081\study_group_repo\project_work\project2\ideas> code .\ideas_1.txt
+
+PS C:\Users\Admin\workspace-3081\study_group_repo\project_work\project2\ideas> cat .\ideas_1.txt
+sample idea
+PS C:\Users\Admin\workspace-3081\study_group_repo\project_work\project2\ideas> mv .\ideas_1.txt /resources/
+PS C:\Users\Admin\workspace-3081\study_group_repo\project_work\project2\ideas> ls
+
+
+    Directory: C:\Users\Admin\workspace-3081\study_group_repo\project_work\project2\ideas
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        28-02-2024     17:33              0 ideas_2.txt
+
+
+PS C:\Users\Admin\workspace-3081\study_group_repo\project_work\project2\ideas> cd ../archives/past_papers
+cd : Cannot find path 'C:\Users\Admin\workspace-3081\study_group_repo\project_work\project2\archives\past_papers' 
+because it does not exist.
+At line:1 char:1
++ cd ../archives/past_papers
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\Users\Admin\...ves\past_papers:String) [Set-Location], 
+ItemNotFoundException
+    + FullyQualifiedErrorId : PathNotFound,Microsoft.PowerShell.Commands.SetLocationCommand
+cd : Cannot find path 'C:\Users\Admin\workspace-3081\study_group_repo\project_work\project2\archives\past_papers' because it does not exist.
+At line:1 char:1
++ cd ../archives/past_papers
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\Users\Admin\...ves\past_papers:String) [Set-Location], ItemNotFoundException
+    + FullyQualifiedErrorId : PathNotFound,Microsoft.PowerShell.Commands.SetLocationCommand
+
+PS C:\Users\Admin\workspace-3081\study_group_repo\project_work\project2\ideas> cd ..\archives\past_papers
+cd : Cannot find path 'C:\Users\Admin\workspace-3081\study_group_repo\project_work\project2\archives\past_papers' 
+because it does not exist.
+At line:1 char:1
++ cd ..\archives\past_papers
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\Users\Admin\...ves\past_papers:String) [Set-Location], 
+ItemNotFoundException
+    + FullyQualifiedErrorId : PathNotFound,Microsoft.PowerShell.Commands.SetLocationCommand
+cd : Cannot find path 'C:\Users\Admin\workspace-3081\study_group_repo\project_work\project2\archives\past_papers' because it does not exist.
+At line:1 char:1
++ cd ..\archives\past_papers
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\Users\Admin\...ves\past_papers:String) [Set-Location], ItemNotFoundException
+    + FullyQualifiedErrorId : PathNotFound,Microsoft.PowerShell.Commands.SetLocationCommand
+
+PS C:\Users\Admin\workspace-3081\study_group_repo\project_work\project2\ideas> cd..
+PS C:\Users\Admin\workspace-3081\study_group_repo\project_work\project2> cd ..\archives\past_papers
+cd : Cannot find path 'C:\Users\Admin\workspace-3081\study_group_repo\project_work\archives\past_papers' because it 
+does not exist.
+At line:1 char:1
++ cd ..\archives\past_papers
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\Users\Admin\...ves\past_papers:String) [Set-Location], 
+ItemNotFoundException
+    + FullyQualifiedErrorId : PathNotFound,Microsoft.PowerShell.Commands.SetLocationCommand
+cd : Cannot find path 'C:\Users\Admin\workspace-3081\study_group_repo\project_work\archives\past_papers' because it does not exist.
+At line:1 char:1
++ cd ..\archives\past_papers
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\Users\Admin\...ves\past_papers:String) [Set-Location], ItemNotFoundException
+    + FullyQualifiedErrorId : PathNotFound,Microsoft.PowerShell.Commands.SetLocationCommand
+
+PS C:\Users\Admin\workspace-3081\study_group_repo\project_work\project2> ../archives/past_papers
+../archives/past_papers : The term '../archives/past_papers' is not recognized as the name of a cmdlet, function, 
+script file, or operable program. Check the spelling of the name, or if a path was included, verify that the path is 
+correct and try again.
+At line:1 char:1
++ ../archives/past_papers
++ ~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (../archives/past_papers:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+../archives/past_papers : The term '../archives/past_papers' is not recognized as the name of a cmdlet, function, script file, or operable program. Check
+the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:1
++ ../archives/past_papers
++ ~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (../archives/past_papers:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+
+PS C:\Users\Admin\workspace-3081\study_group_repo\project_work\project2> cd ../archives/past_papers
+cd : Cannot find path 'C:\Users\Admin\workspace-3081\study_group_repo\project_work\archives\past_papers' because it 
+does not exist.
+At line:1 char:1
++ cd ../archives/past_papers
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\Users\Admin\...ves\past_papers:String) [Set-Location], 
+ItemNotFoundException
+    + FullyQualifiedErrorId : PathNotFound,Microsoft.PowerShell.Commands.SetLocationCommand
+cd : Cannot find path 'C:\Users\Admin\workspace-3081\study_group_repo\project_work\archives\past_papers' because it does not exist.
+At line:1 char:1
++ cd ../archives/past_papers
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\Users\Admin\...ves\past_papers:String) [Set-Location], ItemNotFoundException
+    + FullyQualifiedErrorId : PathNotFound,Microsoft.PowerShell.Commands.SetLocationCommand
+
+PS C:\Users\Admin\workspace-3081\study_group_repo\project_work\project2> cd..
+PS C:\Users\Admin\workspace-3081\study_group_repo\project_work> cd..
+PS C:\Users\Admin\workspace-3081\study_group_repo> cd .\archives\
+PS C:\Users\Admin\workspace-3081\study_group_repo\archives> ls
+
+
+    Directory: C:\Users\Admin\workspace-3081\study_group_repo\archives
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----        28-02-2024     15:01                old_meeting_notes
+d-----        28-02-2024     15:01                past_papers
+
+
+PS C:\Users\Admin\workspace-3081\study_group_repo\archives> cd..
+PS C:\Users\Admin\workspace-3081\study_group_repo> cd .\project_work\
+PS C:\Users\Admin\workspace-3081\study_group_repo\project_work> cd .\project2\
+PS C:\Users\Admin\workspace-3081\study_group_repo\project_work\project2> cd ../archives/past_papers
+cd : Cannot find path 'C:\Users\Admin\workspace-3081\study_group_repo\project_work\archives\past_papers' because it 
+does not exist.
+At line:1 char:1
++ cd ../archives/past_papers
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\Users\Admin\...ves\past_papers:String) [Set-Location], 
+ItemNotFoundException
+    + FullyQualifiedErrorId : PathNotFound,Microsoft.PowerShell.Commands.SetLocationCommand
+cd : Cannot find path 'C:\Users\Admin\workspace-3081\study_group_repo\project_work\archives\past_papers' because it does not exist.
+At line:1 char:1
++ cd ../archives/past_papers
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\Users\Admin\...ves\past_papers:String) [Set-Location], ItemNotFoundException
+    + FullyQualifiedErrorId : PathNotFound,Microsoft.PowerShell.Commands.SetLocationCommand
+
+PS C:\Users\Admin\workspace-3081\study_group_repo\project_work\project2> tree -c
+
+PS C:\Users\Admin\workspace-3081\study_group_repo\project_work\project2> cd..
+PS C:\Users\Admin\workspace-3081\study_group_repo\project_work> cd ../archives/past_papers
+PS C:\Users\Admin\workspace-3081\study_group_repo\archives\past_papers> new-item past_papers_1.txt
+
+
+    Directory: C:\Users\Admin\workspace-3081\study_group_repo\archives\past_papers
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        28-02-2024     18:42              0 past_papers_1.txt
+
+
+PS C:\Users\Admin\workspace-3081\study_group_repo\archives\past_papers> new-item past_papers_2.txt
+
+
+    Directory: C:\Users\Admin\workspace-3081\study_group_repo\archives\past_papers
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        28-02-2024     18:42              0 past_papers_2.txt
+
+
+PS C:\Users\Admin\workspace-3081\study_group_repo\archives\past_papers> new-item past_papers_3.txt
+
+
+    Directory: C:\Users\Admin\workspace-3081\study_group_repo\archives\past_papers
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        28-02-2024     18:42              0 past_papers_3.txt
+
+
+PS C:\Users\Admin\workspace-3081\study_group_repo\archives\past_papers> new-item past_papers_4.txt
+
+
+    Directory: C:\Users\Admin\workspace-3081\study_group_repo\archives\past_papers
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        28-02-2024     18:42              0 past_papers_4.txt
+
+
+PS C:\Users\Admin\workspace-3081\study_group_repo\archives\past_papers> ls
+
+
+    Directory: C:\Users\Admin\workspace-3081\study_group_repo\archives\past_papers
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        28-02-2024     18:42              0 past_papers_1.txt
+-a----        28-02-2024     18:42              0 past_papers_2.txt
+-a----        28-02-2024     18:42              0 past_papers_3.txt
+-a----        28-02-2024     18:42              0 past_papers_4.txt
+
+
+PS C:\Users\Admin\workspace-3081\study_group_repo\archives\past_papers> cp past_papers_1.txt exam1.bak
+PS C:\Users\Admin\workspace-3081\study_group_repo\archives\past_papers> cp past_papers_2.txt exam2.bak
+PS C:\Users\Admin\workspace-3081\study_group_repo\archives\past_papers> ls
+
+
+    Directory: C:\Users\Admin\workspace-3081\study_group_repo\archives\past_papers
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        28-02-2024     18:42              0 exam1.bak
+-a----        28-02-2024     18:42              0 exam2.bak
+-a----        28-02-2024     18:42              0 past_papers_1.txt
+-a----        28-02-2024     18:42              0 past_papers_2.txt
+-a----        28-02-2024     18:42              0 past_papers_3.txt
+-a----        28-02-2024     18:42              0 past_papers_4.txt
+
+
+PS C:\Users\Admin\workspace-3081\study_group_repo\archives\past_papers> cd..
+PS C:\Users\Admin\workspace-3081\study_group_repo\archives> cd .\old_meeting_notes\
+PS C:\Users\Admin\workspace-3081\study_group_repo\archives\old_meeting_notes> new-item notes_1.txt
+
+
+    Directory: C:\Users\Admin\workspace-3081\study_group_repo\archives\old_meeting_notes
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        28-02-2024     18:46              0 notes_1.txt
+
+
+PS C:\Users\Admin\workspace-3081\study_group_repo\archives\old_meeting_notes> new-item notes_2.txt
+
+
+    Directory: C:\Users\Admin\workspace-3081\study_group_repo\archives\old_meeting_notes
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        28-02-2024     18:46              0 notes_2.txt
+
+
+PS C:\Users\Admin\workspace-3081\study_group_repo\archives\old_meeting_notes> new-item notes_3.txt
+
+
+    Directory: C:\Users\Admin\workspace-3081\study_group_repo\archives\old_meeting_notes
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        28-02-2024     18:46              0 notes_3.txt
+
+
+PS C:\Users\Admin\workspace-3081\study_group_repo\archives\old_meeting_notes> ls
+
+
+    Directory: C:\Users\Admin\workspace-3081\study_group_repo\archives\old_meeting_notes
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        28-02-2024     18:46              0 notes_1.txt
+-a----        28-02-2024     18:46              0 notes_2.txt
+-a----        28-02-2024     18:46              0 notes_3.txt
+
+
+PS C:\Users\Admin\workspace-3081\study_group_repo\archives\old_meeting_notes> cat * > combined_notes.txt
+PS C:\Users\Admin\workspace-3081\study_group_repo\archives\old_meeting_notes> ls
+
+
+    Directory: C:\Users\Admin\workspace-3081\study_group_repo\archives\old_meeting_notes
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        28-02-2024     18:48              0 combined_notes.txt
+-a----        28-02-2024     18:46              0 notes_1.txt
+-a----        28-02-2024     18:46              0 notes_2.txt
+-a----        28-02-2024     18:46              0 notes_3.txt
+
+
+PS C:\Users\Admin\workspace-3081\study_group_repo\archives\old_meeting_notes> tree -c
+
+PS C:\Users\Admin\workspace-3081\study_group_repo\archives\old_meeting_notes> cd\
+PS C:\> cd .\Users\
+PS C:\Users> cd .\Admin\
+PS C:\Users\Admin> cd .\workspace-3081\
+PS C:\Users\Admin\workspace-3081> cd .\study_group_repo\
+PS C:\Users\Admin\workspace-3081\study_group_repo> tree -c
+
+PS C:\Users\Admin\workspace-3081\study_group_repo> cd..
+PS C:\Users\Admin\workspace-3081> tree .\study_group_repo\
+
+PS C:\Users\Admin\workspace-3081> cd .\study_group_repo\
+PS C:\Users\Admin\workspace-3081\study_group_repo> cd .\courses\
+PS C:\Users\Admin\workspace-3081\study_group_repo\courses> cd .\COMP101\
+PS C:\Users\Admin\workspace-3081\study_group_repo\courses\COMP101> mkdir sem_1
+
+
+    Directory: C:\Users\Admin\workspace-3081\study_group_repo\courses\COMP101
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----        28-02-2024     18:56                sem_1
+
+
+PS C:\Users\Admin\workspace-3081\study_group_repo\courses\COMP101> mkdir sem_week2
+
+
+    Directory: C:\Users\Admin\workspace-3081\study_group_repo\courses\COMP101
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----        28-02-2024     18:56                sem_week2
+
+
+PS C:\Users\Admin\workspace-3081\study_group_repo\courses\COMP101> mkdir sem_week3
+
+
+    Directory: C:\Users\Admin\workspace-3081\study_group_repo\courses\COMP101
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----        28-02-2024     18:57                sem_week3
+
+
+PS C:\Users\Admin\workspace-3081\study_group_repo\courses\COMP101> rm .\sem_1\
+PS C:\Users\Admin\workspace-3081\study_group_repo\courses\COMP101> rm .\sem_week2\
+PS C:\Users\Admin\workspace-3081\study_group_repo\courses\COMP101> rm .\sem_week3\
+PS C:\Users\Admin\workspace-3081\study_group_repo\courses\COMP101> ls
+
+
+    Directory: C:\Users\Admin\workspace-3081\study_group_repo\courses\COMP101
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----        28-02-2024     15:54                assignments
+d-----        28-02-2024     13:26                lectures
+
+
+PS C:\Users\Admin\workspace-3081\study_group_repo\courses\COMP101> cd .\lectures\
+PS C:\Users\Admin\workspace-3081\study_group_repo\courses\COMP101\lectures> mkdir week1 week2 week3 week4 week5 week6 week7 week8
+>> TerminatingError(mkdir): "A positional parameter cannot be found that accepts argument 'week2'."
+mkdir : A positional parameter cannot be found that accepts argument 'week2'.
+At line:1 char:1
++ mkdir week1 week2 week3 week4 week5 week6 week7 week8
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [mkdir], ParameterBindingException
+    + FullyQualifiedErrorId : PositionalParameterNotFound,mkdir
+mkdir : A positional parameter cannot be found that accepts argument 'week2'.
+At line:1 char:1
++ mkdir week1 week2 week3 week4 week5 week6 week7 week8
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [mkdir], ParameterBindingException
+    + FullyQualifiedErrorId : PositionalParameterNotFound,mkdir
+
+PS C:\Users\Admin\workspace-3081\study_group_repo\courses\COMP101\lectures> mkdir week1
+
+
+    Directory: C:\Users\Admin\workspace-3081\study_group_repo\courses\COMP101\lectures
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----        28-02-2024     18:59                week1
+
+
+PS C:\Users\Admin\workspace-3081\study_group_repo\courses\COMP101\lectures> mkdir week2
+
+
+    Directory: C:\Users\Admin\workspace-3081\study_group_repo\courses\COMP101\lectures
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----        28-02-2024     18:59                week2
+
+
+PS C:\Users\Admin\workspace-3081\study_group_repo\courses\COMP101\lectures> mkdir week3
+
+
+    Directory: C:\Users\Admin\workspace-3081\study_group_repo\courses\COMP101\lectures
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----        28-02-2024     18:59                week3
+
+
+PS C:\Users\Admin\workspace-3081\study_group_repo\courses\COMP101\lectures> mkdir week4
+
+
+    Directory: C:\Users\Admin\workspace-3081\study_group_repo\courses\COMP101\lectures
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----        28-02-2024     18:59                week4
+
+
+PS C:\Users\Admin\workspace-3081\study_group_repo\courses\COMP101\lectures> mkdir week5
+
+
+    Directory: C:\Users\Admin\workspace-3081\study_group_repo\courses\COMP101\lectures
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----        28-02-2024     18:59                week5
+
+
+PS C:\Users\Admin\workspace-3081\study_group_repo\courses\COMP101\lectures> mkdir week6
+
+
+    Directory: C:\Users\Admin\workspace-3081\study_group_repo\courses\COMP101\lectures
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----        28-02-2024     18:59                week6
+
+
+PS C:\Users\Admin\workspace-3081\study_group_repo\courses\COMP101\lectures> mkdir week7
+
+
+    Directory: C:\Users\Admin\workspace-3081\study_group_repo\courses\COMP101\lectures
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----        28-02-2024     18:59                week7
+
+
+PS C:\Users\Admin\workspace-3081\study_group_repo\courses\COMP101\lectures> mkdir week8
+
+
+    Directory: C:\Users\Admin\workspace-3081\study_group_repo\courses\COMP101\lectures
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----        28-02-2024     18:59                week8
+
+
+PS C:\Users\Admin\workspace-3081\study_group_repo\courses\COMP101\lectures> ls
+
+
+    Directory: C:\Users\Admin\workspace-3081\study_group_repo\courses\COMP101\lectures
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----        28-02-2024     18:59                week1
+d-----        28-02-2024     18:59                week2
+d-----        28-02-2024     18:59                week3
+d-----        28-02-2024     18:59                week4
+d-----        28-02-2024     18:59                week5
+d-----        28-02-2024     18:59                week6
+d-----        28-02-2024     18:59                week7
+d-----        28-02-2024     18:59                week8
+
+
+PS C:\Users\Admin\workspace-3081\study_group_repo\courses\COMP101\lectures> cd ..\HIST202\essay_topics
+cd : Cannot find path 'C:\Users\Admin\workspace-3081\study_group_repo\courses\COMP101\HIST202\essay_topics' because it 
+does not exist.
+At line:1 char:1
++ cd ..\HIST202\essay_topics
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\Users\Admin\...02\essay_topics:String) [Set-Location], 
+ItemNotFoundException
+    + FullyQualifiedErrorId : PathNotFound,Microsoft.PowerShell.Commands.SetLocationCommand
+cd : Cannot find path 'C:\Users\Admin\workspace-3081\study_group_repo\courses\COMP101\HIST202\essay_topics' because it does not exist.
+At line:1 char:1
++ cd ..\HIST202\essay_topics
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\Users\Admin\...02\essay_topics:String) [Set-Location], ItemNotFoundException
+    + FullyQualifiedErrorId : PathNotFound,Microsoft.PowerShell.Commands.SetLocationCommand
+
+PS C:\Users\Admin\workspace-3081\study_group_repo\courses\COMP101\lectures> cd ../HIST202/essay_topics
+cd : Cannot find path 'C:\Users\Admin\workspace-3081\study_group_repo\courses\COMP101\HIST202\essay_topics' because it 
+does not exist.
+At line:1 char:1
++ cd ../HIST202/essay_topics
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\Users\Admin\...02\essay_topics:String) [Set-Location], 
+ItemNotFoundException
+    + FullyQualifiedErrorId : PathNotFound,Microsoft.PowerShell.Commands.SetLocationCommand
+cd : Cannot find path 'C:\Users\Admin\workspace-3081\study_group_repo\courses\COMP101\HIST202\essay_topics' because it does not exist.
+At line:1 char:1
++ cd ../HIST202/essay_topics
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\Users\Admin\...02\essay_topics:String) [Set-Location], ItemNotFoundException
+    + FullyQualifiedErrorId : PathNotFound,Microsoft.PowerShell.Commands.SetLocationCommand
+
+PS C:\Users\Admin\workspace-3081\study_group_repo\courses\COMP101\lectures> cd..
+PS C:\Users\Admin\workspace-3081\study_group_repo\courses\COMP101> cd ../HIST202/essay_topics
+PS C:\Users\Admin\workspace-3081\study_group_repo\courses\HIST202\essay_topics> new-item essay_topic1.txt
+
+
+    Directory: C:\Users\Admin\workspace-3081\study_group_repo\courses\HIST202\essay_topics
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        28-02-2024     19:02              0 essay_topic1.txt
+
+
+PS C:\Users\Admin\workspace-3081\study_group_repo\courses\HIST202\essay_topics> new-item essay_topic2.txt
+
+
+    Directory: C:\Users\Admin\workspace-3081\study_group_repo\courses\HIST202\essay_topics
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        28-02-2024     19:02              0 essay_topic2.txt
+
+
+PS C:\Users\Admin\workspace-3081\study_group_repo\courses\HIST202\essay_topics> ls
+
+
+    Directory: C:\Users\Admin\workspace-3081\study_group_repo\courses\HIST202\essay_topics
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        28-02-2024     19:02              0 essay_topic1.txt
+-a----        28-02-2024     19:02              0 essay_topic2.txt
+
+
+PS C:\Users\Admin\workspace-3081\study_group_repo\courses\HIST202\essay_topics> code .\essay_topic1.txt
+
+PS C:\Users\Admin\workspace-3081\study_group_repo\courses\HIST202\essay_topics> code .\essay_topic2.txt
+
+PS C:\Users\Admin\workspace-3081\study_group_repo\courses\HIST202\essay_topics> cd..
+PS C:\Users\Admin\workspace-3081\study_group_repo\courses\HIST202> ls -l .\essay_topics\
+
+
+    Directory: C:\Users\Admin\workspace-3081\study_group_repo\courses\HIST202\essay_topics
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        28-02-2024     19:50             20 essay_topic1.txt
+-a----        28-02-2024     19:51             20 essay_topic2.txt
+
+
+PS C:\Users\Admin\workspace-3081\study_group_repo\courses\HIST202> cd ../ECON303/case_studies/
+PS C:\Users\Admin\workspace-3081\study_group_repo\courses\ECON303\case_studies> ls
+
+
+    Directory: C:\Users\Admin\workspace-3081\study_group_repo\courses\ECON303\case_studies
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        28-02-2024     16:53              9 case_study_data.csv
+-a----        28-02-2024     17:05              0 case_study_data_1.csv
+-a----        28-02-2024     17:05              0 case_study_data_2.csv
+-a----        28-02-2024     17:05              0 case_study_data_3.csv
+
+
+PS C:\Users\Admin\workspace-3081\study_group_repo\courses\ECON303\case_studies> rm .\case_study_data_1.csv
+PS C:\Users\Admin\workspace-3081\study_group_repo\courses\ECON303\case_studies> ls
+
+
+    Directory: C:\Users\Admin\workspace-3081\study_group_repo\courses\ECON303\case_studies
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        28-02-2024     16:53              9 case_study_data.csv
+-a----        28-02-2024     17:05              0 case_study_data_2.csv
+-a----        28-02-2024     17:05              0 case_study_data_3.csv
+
+
+PS C:\Users\Admin\workspace-3081\study_group_repo\courses\ECON303\case_studies> cd\
+PS C:\> cd .\Users\
+PS C:\Users> cd .\Admin\
+PS C:\Users\Admin> cd .\workspace-3081\
+PS C:\Users\Admin\workspace-3081> tree .\study_group_repo\
+
+PS C:\Users\Admin\workspace-3081> cd .\study_group_repo\
+PS C:\Users\Admin\workspace-3081\study_group_repo> cd .\meeting_minutes\
+PS C:\Users\Admin\workspace-3081\study_group_repo\meeting_minutes> mkdir archived_meetings
+
+
+    Directory: C:\Users\Admin\workspace-3081\study_group_repo\meeting_minutes
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----        28-02-2024     20:06                archived_meetings
+
+
+PS C:\Users\Admin\workspace-3081\study_group_repo\meeting_minutes> ls
+
+
+    Directory: C:\Users\Admin\workspace-3081\study_group_repo\meeting_minutes
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----        28-02-2024     20:06                archived_meetings
+d-----        28-02-2024     14:53                committees
+d-----        28-02-2024     15:43                general
+
+
+PS C:\Users\Admin\workspace-3081\study_group_repo\meeting_minutes> mv old_meeting_notes/* archived_meetings/
+mv : Cannot find path 'C:\Users\Admin\workspace-3081\study_group_repo\meeting_minutes\old_meeting_notes' because it 
+does not exist.
+At line:1 char:1
++ mv old_meeting_notes/* archived_meetings/
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\Users\Admin\...d_meeting_notes:String) [Move-Item], 
+ItemNotFoundException
+    + FullyQualifiedErrorId : PathNotFound,Microsoft.PowerShell.Commands.MoveItemCommand
+mv : Cannot find path 'C:\Users\Admin\workspace-3081\study_group_repo\meeting_minutes\old_meeting_notes' because it does not exist.
+At line:1 char:1
++ mv old_meeting_notes/* archived_meetings/
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\Users\Admin\...d_meeting_notes:String) [Move-Item], ItemNotFoundException
+    + FullyQualifiedErrorId : PathNotFound,Microsoft.PowerShell.Commands.MoveItemCommand
+
+PS C:\Users\Admin\workspace-3081\study_group_repo\meeting_minutes> cd..
+PS C:\Users\Admin\workspace-3081\study_group_repo> mv old_meeting_notes/* archived_meetings/
+mv : Cannot find path 'C:\Users\Admin\workspace-3081\study_group_repo\old_meeting_notes' because it does not exist.
+At line:1 char:1
++ mv old_meeting_notes/* archived_meetings/
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\Users\Admin\...d_meeting_notes:String) [Move-Item], 
+ItemNotFoundException
+    + FullyQualifiedErrorId : PathNotFound,Microsoft.PowerShell.Commands.MoveItemCommand
+mv : Cannot find path 'C:\Users\Admin\workspace-3081\study_group_repo\old_meeting_notes' because it does not exist.
+At line:1 char:1
++ mv old_meeting_notes/* archived_meetings/
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\Users\Admin\...d_meeting_notes:String) [Move-Item], ItemNotFoundException
+    + FullyQualifiedErrorId : PathNotFound,Microsoft.PowerShell.Commands.MoveItemCommand
+
+PS C:\Users\Admin\workspace-3081\study_group_repo> cd..
+PS C:\Users\Admin\workspace-3081> tree .\study_group_repo\
+
+PS C:\Users\Admin\workspace-3081> mv old_meeting_notes/* archived_meetings/
+mv : Cannot find path 'C:\Users\Admin\workspace-3081\old_meeting_notes' because it does not exist.
+At line:1 char:1
++ mv old_meeting_notes/* archived_meetings/
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\Users\Admin\...d_meeting_notes:String) [Move-Item], 
+ItemNotFoundException
+    + FullyQualifiedErrorId : PathNotFound,Microsoft.PowerShell.Commands.MoveItemCommand
+mv : Cannot find path 'C:\Users\Admin\workspace-3081\old_meeting_notes' because it does not exist.
+At line:1 char:1
++ mv old_meeting_notes/* archived_meetings/
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\Users\Admin\...d_meeting_notes:String) [Move-Item], ItemNotFoundException
+    + FullyQualifiedErrorId : PathNotFound,Microsoft.PowerShell.Commands.MoveItemCommand
+
+PS C:\Users\Admin\workspace-3081> cd .\study_group_repo\
+PS C:\Users\Admin\workspace-3081\study_group_repo> mv old_meeting_notes/* archived_meetings/
+mv : Cannot find path 'C:\Users\Admin\workspace-3081\study_group_repo\old_meeting_notes' because it does not exist.
+At line:1 char:1
++ mv old_meeting_notes/* archived_meetings/
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\Users\Admin\...d_meeting_notes:String) [Move-Item], 
+ItemNotFoundException
+    + FullyQualifiedErrorId : PathNotFound,Microsoft.PowerShell.Commands.MoveItemCommand
+mv : Cannot find path 'C:\Users\Admin\workspace-3081\study_group_repo\old_meeting_notes' because it does not exist.
+At line:1 char:1
++ mv old_meeting_notes/* archived_meetings/
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\Users\Admin\...d_meeting_notes:String) [Move-Item], ItemNotFoundException
+    + FullyQualifiedErrorId : PathNotFound,Microsoft.PowerShell.Commands.MoveItemCommand
+
+PS C:\Users\Admin\workspace-3081\study_group_repo> cd .\archives\
+PS C:\Users\Admin\workspace-3081\study_group_repo\archives> mv old_meeting_notes/* archived_meetings/
+mv : Cannot create a file when that file already exists.
+
+At line:1 char:1
++ mv old_meeting_notes/* archived_meetings/
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : WriteError: (C:\Users\Admin\...tes\notes_1.txt:FileInfo) [Move-Item], IOException
+    + FullyQualifiedErrorId : MoveFileInfoItemIOError,Microsoft.PowerShell.Commands.MoveItemCommand
+mv : Cannot create a file when that file already exists.
+
+At line:1 char:1
++ mv old_meeting_notes/* archived_meetings/
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : WriteError: (C:\Users\Admin\...tes\notes_1.txt:FileInfo) [Move-Item], IOException
+    + FullyQualifiedErrorId : MoveFileInfoItemIOError,Microsoft.PowerShell.Commands.MoveItemCommand
+
+mv : Cannot create a file when that file already exists.
+
+At line:1 char:1
++ mv old_meeting_notes/* archived_meetings/
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : WriteError: (C:\Users\Admin\...tes\notes_2.txt:FileInfo) [Move-Item], IOException
+    + FullyQualifiedErrorId : MoveFileInfoItemIOError,Microsoft.PowerShell.Commands.MoveItemCommand
+mv : Cannot create a file when that file already exists.
+
+At line:1 char:1
++ mv old_meeting_notes/* archived_meetings/
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : WriteError: (C:\Users\Admin\...tes\notes_2.txt:FileInfo) [Move-Item], IOException
+    + FullyQualifiedErrorId : MoveFileInfoItemIOError,Microsoft.PowerShell.Commands.MoveItemCommand
+
+mv : Cannot create a file when that file already exists.
+
+At line:1 char:1
++ mv old_meeting_notes/* archived_meetings/
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : WriteError: (C:\Users\Admin\...tes\notes_3.txt:FileInfo) [Move-Item], IOException
+    + FullyQualifiedErrorId : MoveFileInfoItemIOError,Microsoft.PowerShell.Commands.MoveItemCommand
+mv : Cannot create a file when that file already exists.
+
+At line:1 char:1
++ mv old_meeting_notes/* archived_meetings/
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : WriteError: (C:\Users\Admin\...tes\notes_3.txt:FileInfo) [Move-Item], IOException
+    + FullyQualifiedErrorId : MoveFileInfoItemIOError,Microsoft.PowerShell.Commands.MoveItemCommand
+
+PS C:\Users\Admin\workspace-3081\study_group_repo\archives> mv -f old_meeting_notes/* archived_meetings/
+>> TerminatingError(Move-Item): "Parameter cannot be processed because the parameter name 'f' is ambiguous. Possible matches include: -Force -Filter."
+Move-Item : Parameter cannot be processed because the parameter name 'f' is ambiguous. Possible matches include: -Force 
+-Filter.
+At line:1 char:4
++ mv -f old_meeting_notes/* archived_meetings/
++    ~~
+    + CategoryInfo          : InvalidArgument: (:) [Move-Item], ParameterBindingException
+    + FullyQualifiedErrorId : AmbiguousParameter,Microsoft.PowerShell.Commands.MoveItemCommand
+Move-Item : Parameter cannot be processed because the parameter name 'f' is ambiguous. Possible matches include: -Force -Filter.
+At line:1 char:4
++ mv -f old_meeting_notes/* archived_meetings/
++    ~~
+    + CategoryInfo          : InvalidArgument: (:) [Move-Item], ParameterBindingException
+    + FullyQualifiedErrorId : AmbiguousParameter,Microsoft.PowerShell.Commands.MoveItemCommand
+
+PS C:\Users\Admin\workspace-3081\study_group_repo\archives> cd..
+PS C:\Users\Admin\workspace-3081\study_group_repo> cd..
+PS C:\Users\Admin\workspace-3081> tree .\study_group_repo\
+
+PS C:\Users\Admin\workspace-3081> cd .\study_group_repo\
+PS C:\Users\Admin\workspace-3081\study_group_repo> mv old_meeting_notes/* archived_meetings/
+mv : Cannot find path 'C:\Users\Admin\workspace-3081\study_group_repo\old_meeting_notes' because it does not exist.
+At line:1 char:1
++ mv old_meeting_notes/* archived_meetings/
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\Users\Admin\...d_meeting_notes:String) [Move-Item], 
+ItemNotFoundException
+    + FullyQualifiedErrorId : PathNotFound,Microsoft.PowerShell.Commands.MoveItemCommand
+mv : Cannot find path 'C:\Users\Admin\workspace-3081\study_group_repo\old_meeting_notes' because it does not exist.
+At line:1 char:1
++ mv old_meeting_notes/* archived_meetings/
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\Users\Admin\...d_meeting_notes:String) [Move-Item], ItemNotFoundException
+    + FullyQualifiedErrorId : PathNotFound,Microsoft.PowerShell.Commands.MoveItemCommand
+
+PS C:\Users\Admin\workspace-3081\study_group_repo> cd .\archives\
+PS C:\Users\Admin\workspace-3081\study_group_repo\archives> cd .\old_meeting_notes\
+PS C:\Users\Admin\workspace-3081\study_group_repo\archives\old_meeting_notes> mv old_meeting_notes/* archived_meetings/
+mv : Cannot find path 'C:\Users\Admin\workspace-3081\study_group_repo\archives\old_meeting_notes\old_meeting_notes' 
+because it does not exist.
+At line:1 char:1
++ mv old_meeting_notes/* archived_meetings/
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\Users\Admin\...d_meeting_notes:String) [Move-Item], 
+ItemNotFoundException
+    + FullyQualifiedErrorId : PathNotFound,Microsoft.PowerShell.Commands.MoveItemCommand
+mv : Cannot find path 'C:\Users\Admin\workspace-3081\study_group_repo\archives\old_meeting_notes\old_meeting_notes' because it does not exist.
+At line:1 char:1
++ mv old_meeting_notes/* archived_meetings/
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\Users\Admin\...d_meeting_notes:String) [Move-Item], ItemNotFoundException
+    + FullyQualifiedErrorId : PathNotFound,Microsoft.PowerShell.Commands.MoveItemCommand
+
+PS C:\Users\Admin\workspace-3081\study_group_repo\archives\old_meeting_notes> cd..
+PS C:\Users\Admin\workspace-3081\study_group_repo\archives> mv old_meeting_notes/* archived_meetings/
+mv : Cannot create a file when that file already exists.
+
+At line:1 char:1
++ mv old_meeting_notes/* archived_meetings/
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : WriteError: (C:\Users\Admin\...tes\notes_1.txt:FileInfo) [Move-Item], IOException
+    + FullyQualifiedErrorId : MoveFileInfoItemIOError,Microsoft.PowerShell.Commands.MoveItemCommand
+mv : Cannot create a file when that file already exists.
+
+At line:1 char:1
++ mv old_meeting_notes/* archived_meetings/
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : WriteError: (C:\Users\Admin\...tes\notes_1.txt:FileInfo) [Move-Item], IOException
+    + FullyQualifiedErrorId : MoveFileInfoItemIOError,Microsoft.PowerShell.Commands.MoveItemCommand
+
+mv : Cannot create a file when that file already exists.
+
+At line:1 char:1
++ mv old_meeting_notes/* archived_meetings/
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : WriteError: (C:\Users\Admin\...tes\notes_2.txt:FileInfo) [Move-Item], IOException
+    + FullyQualifiedErrorId : MoveFileInfoItemIOError,Microsoft.PowerShell.Commands.MoveItemCommand
+mv : Cannot create a file when that file already exists.
+
+At line:1 char:1
++ mv old_meeting_notes/* archived_meetings/
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : WriteError: (C:\Users\Admin\...tes\notes_2.txt:FileInfo) [Move-Item], IOException
+    + FullyQualifiedErrorId : MoveFileInfoItemIOError,Microsoft.PowerShell.Commands.MoveItemCommand
+
+mv : Cannot create a file when that file already exists.
+
+At line:1 char:1
++ mv old_meeting_notes/* archived_meetings/
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : WriteError: (C:\Users\Admin\...tes\notes_3.txt:FileInfo) [Move-Item], IOException
+    + FullyQualifiedErrorId : MoveFileInfoItemIOError,Microsoft.PowerShell.Commands.MoveItemCommand
+mv : Cannot create a file when that file already exists.
+
+At line:1 char:1
++ mv old_meeting_notes/* archived_meetings/
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : WriteError: (C:\Users\Admin\...tes\notes_3.txt:FileInfo) [Move-Item], IOException
+    + FullyQualifiedErrorId : MoveFileInfoItemIOError,Microsoft.PowerShell.Commands.MoveItemCommand
+
+PS C:\Users\Admin\workspace-3081\study_group_repo\archives> cd..
+PS C:\Users\Admin\workspace-3081\study_group_repo> cd .\meeting_minutes\
+PS C:\Users\Admin\workspace-3081\study_group_repo\meeting_minutes> ls
+
+
+    Directory: C:\Users\Admin\workspace-3081\study_group_repo\meeting_minutes
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----        28-02-2024     20:06                archived_meetings
+d-----        28-02-2024     14:53                committees
+d-----        28-02-2024     15:43                general
+
+
+PS C:\Users\Admin\workspace-3081\study_group_repo\meeting_minutes> cd .\archived_meetings\
+PS C:\Users\Admin\workspace-3081\study_group_repo\meeting_minutes\archived_meetings> ls
+PS C:\Users\Admin\workspace-3081\study_group_repo\meeting_minutes\archived_meetings> cd..
+PS C:\Users\Admin\workspace-3081\study_group_repo\meeting_minutes> cd..
+PS C:\Users\Admin\workspace-3081\study_group_repo> cd..
+PS C:\Users\Admin\workspace-3081> tree .\study_group_repo\
+
+PS C:\Users\Admin\workspace-3081> cd .\study_group_repo\
+PS C:\Users\Admin\workspace-3081\study_group_repo> cd .\project_work\
+PS C:\Users\Admin\workspace-3081\study_group_repo\project_work> cd .\project2\
+PS C:\Users\Admin\workspace-3081\study_group_repo\project_work\project2> mv ideas brainstroming
+PS C:\Users\Admin\workspace-3081\study_group_repo\project_work\project2> cd..
+PS C:\Users\Admin\workspace-3081\study_group_repo\project_work> cd..
+PS C:\Users\Admin\workspace-3081\study_group_repo> cd..
+PS C:\Users\Admin\workspace-3081> tree .\study_group_repo\
+
+PS C:\Users\Admin\workspace-3081> cd .\study_group_repo\
+PS C:\Users\Admin\workspace-3081\study_group_repo> cd .\courses\
+PS C:\Users\Admin\workspace-3081\study_group_repo\courses> cd .\COMP101\
+PS C:\Users\Admin\workspace-3081\study_group_repo\courses\COMP101> cd .\assignments\
+PS C:\Users\Admin\workspace-3081\study_group_repo\courses\COMP101\assignments> new-item summary.txt
+
+
+    Directory: C:\Users\Admin\workspace-3081\study_group_repo\courses\COMP101\assignments
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        28-02-2024     20:26              0 summary.txt
+
+
+PS C:\Users\Admin\workspace-3081\study_group_repo\courses\COMP101\assignments> code summary.txt
+
+PS C:\Users\Admin\workspace-3081\study_group_repo\courses\COMP101\assignments> cat summary.txt
+There are total 5 assignments in the topic.
+PS C:\Users\Admin\workspace-3081\study_group_repo\courses\COMP101\assignments> cp summary.txt courses/COMP101/lectures/lecture_summary.txt
+>> TerminatingError(Copy-Item): "Could not find a part of the path 'C:\Users\Admin\workspace-3081\study_group_repo\courses\COMP101\assignments\courses\COMP101\lectures\lecture_summary.txt'."
+cp : Could not find a part of the path 'C:\Users\Admin\workspace-3081\study_group_repo\courses\COMP101\assignments\cours
+es\COMP101\lectures\lecture_summary.txt'.
+At line:1 char:1
++ cp summary.txt courses/COMP101/lectures/lecture_summary.txt
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (:) [Copy-Item], DirectoryNotFoundException
+    + FullyQualifiedErrorId : System.IO.DirectoryNotFoundException,Microsoft.PowerShell.Commands.CopyItemCommand
+cp : Could not find a part of the path
+'C:\Users\Admin\workspace-3081\study_group_repo\courses\COMP101\assignments\courses\COMP101\lectures\lecture_summary.txt'.
+At line:1 char:1
++ cp summary.txt courses/COMP101/lectures/lecture_summary.txt
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (:) [Copy-Item], DirectoryNotFoundException
+    + FullyQualifiedErrorId : System.IO.DirectoryNotFoundException,Microsoft.PowerShell.Commands.CopyItemCommand
+
+PS C:\Users\Admin\workspace-3081\study_group_repo\courses\COMP101\assignments> ls
+
+
+    Directory: C:\Users\Admin\workspace-3081\study_group_repo\courses\COMP101\assignments
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        28-02-2024     20:26             43 summary.txt
+-a----        28-02-2024     15:54              0 upcoming_assignment.txt.txt
+
+
+PS C:\Users\Admin\workspace-3081\study_group_repo\courses\COMP101\assignments> cp summary.txt ..courses/COMP101/lectures/lecture_summary.txt
+>> TerminatingError(Copy-Item): "Could not find a part of the path 'C:\Users\Admin\workspace-3081\study_group_repo\courses\COMP101\assignments\..courses\COMP101\lectures\lecture_summary.txt'."
+cp : Could not find a part of the path 'C:\Users\Admin\workspace-3081\study_group_repo\courses\COMP101\assignments\..cou
+rses\COMP101\lectures\lecture_summary.txt'.
+At line:1 char:1
++ cp summary.txt ..courses/COMP101/lectures/lecture_summary.txt
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (:) [Copy-Item], DirectoryNotFoundException
+    + FullyQualifiedErrorId : System.IO.DirectoryNotFoundException,Microsoft.PowerShell.Commands.CopyItemCommand
+cp : Could not find a part of the path
+'C:\Users\Admin\workspace-3081\study_group_repo\courses\COMP101\assignments\..courses\COMP101\lectures\lecture_summary.txt'.
+At line:1 char:1
++ cp summary.txt ..courses/COMP101/lectures/lecture_summary.txt
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (:) [Copy-Item], DirectoryNotFoundException
+    + FullyQualifiedErrorId : System.IO.DirectoryNotFoundException,Microsoft.PowerShell.Commands.CopyItemCommand
+
+PS C:\Users\Admin\workspace-3081\study_group_repo\courses\COMP101\assignments> cp summary.txt lectures/lecture_summary.txt
+>> TerminatingError(Copy-Item): "Could not find a part of the path 'C:\Users\Admin\workspace-3081\study_group_repo\courses\COMP101\assignments\lectures\lecture_summary.txt'."
+cp : Could not find a part of the path 
+'C:\Users\Admin\workspace-3081\study_group_repo\courses\COMP101\assignments\lectures\lecture_summary.txt'.
+At line:1 char:1
++ cp summary.txt lectures/lecture_summary.txt
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (:) [Copy-Item], DirectoryNotFoundException
+    + FullyQualifiedErrorId : System.IO.DirectoryNotFoundException,Microsoft.PowerShell.Commands.CopyItemCommand
+cp : Could not find a part of the path 'C:\Users\Admin\workspace-3081\study_group_repo\courses\COMP101\assignments\lectures\lecture_summary.txt'.
+At line:1 char:1
++ cp summary.txt lectures/lecture_summary.txt
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (:) [Copy-Item], DirectoryNotFoundException
+    + FullyQualifiedErrorId : System.IO.DirectoryNotFoundException,Microsoft.PowerShell.Commands.CopyItemCommand
+
+PS C:\Users\Admin\workspace-3081\study_group_repo\courses\COMP101\assignments> cp summary.txt ../lectures/lecture_summary.txt
+PS C:\Users\Admin\workspace-3081\study_group_repo\courses\COMP101\assignments> cd..
+PS C:\Users\Admin\workspace-3081\study_group_repo\courses\COMP101> cd..
+PS C:\Users\Admin\workspace-3081\study_group_repo\courses> cd..
+PS C:\Users\Admin\workspace-3081\study_group_repo> cd .\resources\
+PS C:\Users\Admin\workspace-3081\study_group_repo\resources> mkdir external_links
+
+
+    Directory: C:\Users\Admin\workspace-3081\study_group_repo\resources
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----        28-02-2024     20:36                external_links
+
+
+PS C:\Users\Admin\workspace-3081\study_group_repo\resources> mv research_papers/* external_links/
+PS C:\Users\Admin\workspace-3081\study_group_repo\resources> cd..
+PS C:\Users\Admin\workspace-3081\study_group_repo> echo "Study group repository setup complete!"
+Study group repository setup complete!
+PS C:\Users\Admin\workspace-3081\study_group_repo> exit
+**********************
+Windows PowerShell transcript end
+End time: 20240228203921
+**********************
