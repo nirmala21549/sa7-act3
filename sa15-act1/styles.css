@@ -1,0 +1,38 @@
+body {
+    font-family: Arial, sans-serif;
+  }
+  
+  header, footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+  }
+  
+  main {
+    padding: 20px;
+  }
+  
+  h1, h2 {
+    margin-bottom: 10px;
+  }
+  
+  footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
+  
+  /* Style for toggle button */
+  #toggle-btn {
+    padding: 5px 10px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  
+  #toggle-btn:hover {
+    background-color: #555;
+  }
+  
